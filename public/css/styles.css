@@ -1,5 +1,7 @@
 
-
+h1{
+  font-size: 70px;
+}
 
 /*Mobile*/
 @media only screen and (max-width: 40em) { } 
@@ -7,38 +9,78 @@
 
 /*Ipad*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { } 
-    body{
-      background-color: orange;
-    }
+  
 
 /*Desktop*/
 @media only screen and (min-width: 64.063em) { 
- 
 
-  body{
-    background-color: red;
-    font-weight: 700;
-  }
 
-   .top-bar{
-    background-color: orange;
-    height: 143px;
-   }
 
-  span#Flappy {
-
-    font-size: 40px;
-    color: #1ACAC8;
-
+header{
+ background-color: blue;
 
 }
 
-  span#App{
-    position: absolute;
-    margin-left: 50px;
-    font-size: 40px;
-    color: #1ACAC8;
-  } 
+header .row{
 
-} 
+  background-color: yellowgreen;
+}
+
+#content{
+
+  background-color: salmon;
+}
+
+#content .row{
+
+  background-color: grey;
+}
+
+footer{ 
+  background-color: yellow;
+}
+
+footer .row{
+
+  background-color: magenta;
+}
+
+ nav.top-bar{
+    height: 143px;
+    background-color: orange;
+  }
+
+nav.top-bar .title-area{
+  height: 143px;
+  background-color: red;
+}
+
+nav.top-bar .top-bar-section ul.right{
+  height: 50px; 
+  background-color: yellow;
+  margin-top: 43px;
+}
+
+nav.top-bar .top-bar-section ul.right > li {
+  background-color: yellowgreen;
+  height: 50px;
+}
+ 
+nav.top-bar .top-bar-section ul.right > li > a{
+  height: 50px;
+  border-bottom: 5px solid #1ACAC8;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  font-weight: 700px;
+  color: #1ACAC8;
+}
+
+nav.top-bar .top-bar-section ul.right > li > a: hover{
+  color: #FFF;
+  background-color: 
+  border
+}
+}
+
 
