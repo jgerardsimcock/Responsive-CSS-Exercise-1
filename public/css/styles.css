@@ -1,0 +1,44 @@
+
+
+
+/*Mobile*/
+@media only screen and (max-width: 40em) { } 
+  
+
+/*Ipad*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } 
+    body{
+      background-color: orange;
+    }
+
+/*Desktop*/
+@media only screen and (min-width: 64.063em) { 
+ 
+
+  body{
+    background-color: red;
+    font-weight: 700;
+  }
+
+   .top-bar{
+    background-color: orange;
+    height: 143px;
+   }
+
+  span#Flappy {
+
+    font-size: 40px;
+    color: #1ACAC8;
+
+
+}
+
+  span#App{
+    position: absolute;
+    margin-left: 50px;
+    font-size: 40px;
+    color: #1ACAC8;
+  } 
+
+} 
+
