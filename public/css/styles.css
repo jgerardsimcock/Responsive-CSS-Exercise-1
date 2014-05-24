@@ -114,6 +114,9 @@ nav.top-bar .top-bar-section ul.right > li > a:hover{
   background-color: grey;
 }
 
+#content .row .row .large-8{
+  padding-right: 5px;
+}
 
 
 #content #feature{
@@ -124,9 +127,9 @@ nav.top-bar .top-bar-section ul.right > li > a:hover{
   background-position: right;
 }
 #content ul{
-
+  width: 300px;
   list-style: none;
-  line-height: 42px;
+  line-height: 60px;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 3px;
@@ -135,6 +138,7 @@ nav.top-bar .top-bar-section ul.right > li > a:hover{
 
 #content ul li{
    padding: 0px 20px;
+   border-bottom: 2px solid #21908F;
 }
 
 
