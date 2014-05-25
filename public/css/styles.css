@@ -7,17 +7,10 @@
     background-image: url("../images/border.png");
     background-repeat: repeat-x;
     height: 100px;
+    background-color: #212027;
   } 
 
-  header .row{
-    background-color: orange;
-    height: 100px;
-  }
 
-  nav.top-bar{
-    height: 100px;
-
-  }
 
   nav.top-bar .title-area{
     
@@ -134,11 +127,7 @@
   }
   footer .row ul li{
     line-height: 40px;
-    font-family: Lato, sans-serif;
-  }
-
-  footer .row ul:first-child{
-    padding-left: 30px;
+    font-family: "Lato", sans-serif;
   }
 
   footer .row ul li a{
@@ -150,6 +139,11 @@
 
   footer .row ul li a:hover{
     color: white;
+  }
+
+  footer .row ul:first-child{
+    padding-left: 40px;
+
   }
 
   footer .row p{
