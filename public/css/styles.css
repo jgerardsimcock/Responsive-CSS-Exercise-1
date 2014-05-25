@@ -2,9 +2,45 @@
 
 /*Mobile*/
 @media only screen and (max-width: 40em) { 
-} 
-  
 
+  header{ 
+    background-image: url("../images/border.png");
+    background-repeat: repeat-x;
+  } 
+
+  header .row{
+    background-color: orange;
+  }
+
+  nav.top-bar{
+
+  }
+
+  nav.top-bar .title-area{
+    
+  }
+
+  nav.top-bar .title-area h1{
+    
+  }
+
+  nav.top-bar .title-area img{
+    position: absolute;
+    margin-left: 30px;
+    width: 90px;
+  }
+   nav.top-bar .title-area h1 {
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 150px;
+    letter-spacing: 3px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+}
 /*Ipad*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
     
@@ -53,6 +89,7 @@
     display: inline;
     margin-top: 10px; 
     color: #1ACAC8;    
+    font-family: 'Lato', sans-serif;
   }
 
   nav.top-bar .title-area span#App{
@@ -60,10 +97,11 @@
     display: inline;   
     margin-top: 40px; 
     color: white;
+    font-family: 'Lato', sans-serif;
   }
 
   nav.top-bar .top-bar-section ul.right > li {
-  
+      font-family: 'Lato', sans-serif;
   }
 
   nav.top-bar .top-bar-section ul.right{
@@ -80,6 +118,7 @@
     font-size: 14px;
     font-weight: 700;
     color: #1ACAC8;
+    font-family: 'Lato', sans-serif;
   }
 
   nav.top-bar .top-bar-section ul.right > li > a:hover{
@@ -92,12 +131,17 @@
   }
 
   #content .row {
-    background-color: transparent;
-    
+    background-color: transparent; 
   }
+
   #content .row .row {
     background-color: green;
   }
+
+.columns {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
   #content #feature {
     background-color: grey;
@@ -116,13 +160,14 @@
     text-align: center;
     letter-spacing: 2px;
     background-color: #1ACAC8;
+    margin-left: 0px;
   }
 
   #content ul li{
      border-bottom: 2px solid #21908F;
      font-weight: 700;
+     font-family: Lato, sans-serif;
   }
-
 
   #content ul li span{
     color: white;
@@ -132,7 +177,13 @@
    
   }
 
-  footer {
+  #content p{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Lato, sans-serif;
+  }
+
+  footer {  
     background-color: violet;
   } 
 
@@ -141,6 +192,41 @@
     background-image: url("../images/border.png");
     background-repeat: repeat-x;
   }
+
+  footer .row .row{
+    margin-top: 50px;
+  }
+  
+  footer .row ul{
+    list-style: none;
+  }
+  footer .row ul li{
+    line-height: 40px;
+    font-family: Lato, sans-serif;
+  }
+
+  footer .row ul:first-child{
+    padding-left: 30px;
+  }
+
+  footer .row ul li a{
+    color: #1ACAC8;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  footer .row ul li a:hover{
+    color: white;
+  }
+
+  footer .row p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
 
 }
 
@@ -195,6 +281,7 @@
     position: absolute;
     display: inline-block;
     margin-top: 50px;
+    font-family: 'Lato', sans-serif;
     
 
   }
@@ -203,6 +290,7 @@
     display: inline-block;   
     margin-left: 300px;
     margin-top: 50px; 
+    font-family: 'Lato', sans-serif;
     
   }
 
@@ -221,6 +309,7 @@
     height: 50px; 
     margin-top: 43px;
     background-color: transparent;
+    font-family: 'Lato', sans-serif;
   }
 
   nav.top-bar .top-bar-section ul.right > li > a{
@@ -232,6 +321,7 @@
     font-size: 14px;
     font-weight: 700;
     color: #1ACAC8;
+    font-family: 'Lato', sans-serif;
   }
 
   nav.top-bar .top-bar-section ul.right > li > a.first-child {
@@ -282,6 +372,7 @@
     text-align: center;
     letter-spacing: 3px;
     background-color: #1ACAC8;
+    font-family: 'Lato', sans-serif;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.42);
     -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.42);
     box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.42);
@@ -291,6 +382,7 @@
      padding: 0px 20px;
      border-bottom: 2px solid #21908F;
      font-weight: 700;
+     font-family: 'Lato', sans-serif;
   }
 
 
@@ -307,16 +399,17 @@
     color: #1ACAC8;
   }
 
+  #content p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  }
+
   footer{ 
     background-color: #202127;
     background-image: url("../images/border.png");
     background-repeat: repeat-x;
   }
-
-  /*footer .row{*/
-
-    /*background-color: magenta;*/
-  /*}*/
 
 footer .row .row{
   margin-top: 50px;
