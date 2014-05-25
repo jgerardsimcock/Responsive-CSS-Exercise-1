@@ -6,13 +6,16 @@
   header{ 
     background-image: url("../images/border.png");
     background-repeat: repeat-x;
+    height: 100px;
   } 
 
   header .row{
     background-color: orange;
+    height: 100px;
   }
 
   nav.top-bar{
+    height: 100px;
 
   }
 
@@ -26,45 +29,160 @@
 
   nav.top-bar .title-area img{
     position: absolute;
-    margin-left: 30px;
+    margin-left: 20px;
     width: 90px;
   }
+
    nav.top-bar .title-area h1 {
     position: absolute;
     text-transform: uppercase;
-    margin-left: 150px;
     letter-spacing: 3px;
+    margin-left: 120px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 20px;
+  }
+
+   nav.top-bar .title-area h1 span#Flappy{
+    position: absolute;
+    display: inline; 
+    color: #1ACAC8;    
+    font-family: 'Lato', sans-serif;
+  }
+
+  nav.top-bar .title-area span#App{
+    position: absolute;
+    display: inline;   
+    margin-left: 100px; 
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .top-bar .toggle-topbar.menu-icon a:after{
+    color: #1ACAC8;
+  }
+
+  #content{ 
+    background-color: transparent;
+    width: 100%;
+  }
+
+  #content .row {
+    background-color: transparent; 
+  }
+
+  #content #feature {
+    background-color: grey;
+    background-image: url("../images/scenery.png");
+    background-size: cover; 
+    width: 100%;
+    height: 300px;
+    font-weight: 700; 
+  }
+
+  #content ul{
+    width: 100%;
+    list-style: none;
+    line-height: 59px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #1ACAC8;
+    margin-left: 0px;
+  }
+
+  #content ul li{
+     border-bottom: 2px solid #21908F;
+     font-weight: 700;
+     font-family: 'Lato', sans-serif;
+  }
+
+  .columns {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
+#content ul li span{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 0px 2px;
+   
+  }
 
+  #content p{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px; 
+  }
+
+  footer{ 
+    background-color: #202127;
+    background-image: url("../images/border.png");
+    background-repeat: repeat-x;
+  }
+
+   footer .row .row{
+    margin-top: 50px;
+  }
+  
+  footer .row ul{
+    list-style: none;
+  }
+  footer .row ul li{
+    line-height: 40px;
+    font-family: Lato, sans-serif;
+  }
+
+  footer .row ul:first-child{
+    padding-left: 30px;
+  }
+
+  footer .row ul li a{
+    color: #1ACAC8;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  footer .row ul li a:hover{
+    color: white;
+  }
+
+  footer .row p{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
 }
 /*Ipad*/
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
     
   header{ 
-    background-color: red;
     height: 120px;
     background-image: url("../images/border.png");
     background-repeat: repeat-x;
   }
 
   header .row{
-    background-color: orange;
+    height: 120px;
   }
 
   nav.top-bar {
-    background-color: violet;
+    height: 120px;
   }
 
   nav.top-bar .title-area {
-    background-color: magenta;
+  
   }
 
   nav.top-bar .title-area h1{
-    background-color: yellow;
+    
   }
 
   nav.top-bar .title-area img{
@@ -107,7 +225,7 @@
   nav.top-bar .top-bar-section ul.right{
     margin-right: 50px; 
     margin-top: 30px;
-    background-color: blue;
+    
   }
 
   nav.top-bar .top-bar-section ul.right > li > a{
@@ -135,7 +253,7 @@
   }
 
   #content .row .row {
-    background-color: green;
+    
   }
 
 .columns {
@@ -166,7 +284,7 @@
   #content ul li{
      border-bottom: 2px solid #21908F;
      font-weight: 700;
-     font-family: Lato, sans-serif;
+     font-family: 'Lato', sans-serif;
   }
 
   #content ul li span{
@@ -182,10 +300,6 @@
     font-size: 30px;
     font-family: Lato, sans-serif;
   }
-
-  footer {  
-    background-color: violet;
-  } 
 
   footer{ 
     background-color: #202127;
