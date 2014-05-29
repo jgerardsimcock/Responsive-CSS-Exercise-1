@@ -6,21 +6,22 @@
   header{ 
     background-image: url("../images/border.png");
     background-repeat: repeat-x;
-    height: 85px;
+    /*height: 85px;*/
     background-color: #212027;
   } 
 
   nav.top-bar {
-    height: 120px;
+    height: 0 auto;
     background-color: transparent;
   }
 
   .top-bar .name{
-    height: 85px;
+    height: 85px`;
   }
 
   nav.top-bar .title-area{
     background-color: transparent;
+    height: 85px;
   }
 
   nav.top-bar .title-area img{
@@ -57,10 +58,17 @@
     margin-top: 15px;
   }
 
-  .top-bar.expanded .title-area{
+.top-bar{
+  height: 85px;
+}
+
+.top-bar.expanded .title-area{
     background-color: transparent;
   }
 
+.top-bar.expanded{
+  height: auto;
+}
   #content{ 
     background-color: transparent;
     width: 100%;
@@ -76,6 +84,7 @@
     width: 100%;
     height: 300px;
     font-weight: 700; 
+    background-position: right center;
   }
 
   #content ul{
@@ -172,18 +181,18 @@
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
     
   header{ 
-    height: 120px;
+    height: auto;
     background-image: url("../images/border.png");
     background-repeat: repeat-x;
     background-color: #262626;
   }
 
   header .row{
-    height: 120px;
+    height: auto;
   }
 
   nav.top-bar {
-    height: 120px;
+    height: auto;
     background-color: transparent;
   }
 
@@ -235,11 +244,12 @@
   nav.top-bar .top-bar-section ul.right{
     margin-right: 50px; 
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: transparent; 
   }
 
   nav.top-bar .top-bar-section ul.right > li > a{
-    height: 50px;
+    height: auto;
     background-color: transparent;
     text-transform: uppercase;
     letter-spacing: 2px; 
@@ -459,7 +469,8 @@
 
   nav.top-bar .top-bar-section ul.right > li > a:hover{
     color: #FFF;
-    border-bottom: solid white;
+    border-bottom: solid 5px white;
+    background-color: transparent;
   }
 
   #content{
